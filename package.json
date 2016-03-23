@@ -1,0 +1,30 @@
+{
+  "name": "hain-plugin-hackernews",
+  "version": "0.0.1",
+  "description": "a hain plugin for hackernews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appetizermonster/hain-plugin-hackernews.git"
+  },
+  "keywords": [
+    "hain0"
+  ],
+  "author": "Heejin Lee <monster@teamappetizer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appetizermonster/hain-plugin-hackernews/issues"
+  },
+  "homepage": "https://github.com/appetizermonster/hain-plugin-hackernews#readme",
+  "dependencies": {
+    "node-hacker-news": "^0.1.1"
+  },
+  "hain": {
+    "prefix": "/hn",
+    "usage": "type /hn to see hackernews",
+    "icon": "#fa fa-hacker-news"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb/base",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "no-unused-vars": "warn",
+    "camelcase": "off",
+    "object-shorthand": "off",
+    "guard-for-in": "warn",
+    "arrow-body-style": "off",
+    "consistent-return": "warn",
+    "no-throw-literal": "warn",
+    "quote-props": "off",
+    "new-cap": "warn",
+    "default-case": "off",
+    "no-empty": "warn",
+    "curly": "off",
+    "padded-blocks": "off",
+    "no-use-before-define": "warn"
+   }
+}
