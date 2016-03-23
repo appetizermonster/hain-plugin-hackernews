@@ -5,6 +5,8 @@ const CACHE_DURATION_SEC = 10 * 60; // 10 mins
 
 module.exports = (pluginContext) => {
   const toast = pluginContext.toast;
+  const shell = pluginContext.shell;
+
   let _cachedNews = [];
   let _lastFetchTime = 0;
 
